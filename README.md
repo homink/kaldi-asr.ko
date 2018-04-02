@@ -90,3 +90,11 @@ cat `find exp -name "best_wer"`
 %WER 13.83 [ 810 / 5856, 145 ins, 81 del, 584 sub ] exp/chain_7e902f5/tdnn1a_sp/decode_sp/wer_10_1.0
 %WER 13.76 [ 806 / 5856, 145 ins, 82 del, 579 sub ] exp/chain_7e902f5/tdnn1a_sp_online/decode_sp/wer_10_1.0
 ```
+
+run.sh inlcudes CER calcluation although it prints "%WER" prefix. You can get CER rate with the following command.
+```
+cat `find exp -name "best_cer"`
+```
+
+## License
+
