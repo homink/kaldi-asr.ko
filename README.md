@@ -54,4 +54,4 @@ make -j 8
 
 ## Speech corpus preparation
 
-Follow https://github.com/homink/speech.ko and let run.sh know where it is located. You need to locate Sejong corpus as well.
+Follow https://github.com/homink/speech.ko and let [run.sh](https://github.com/homink/kaldi-asr.ko/blob/master/s5/run.sh) know where it is located. You need to locate Sejong corpus as well.
