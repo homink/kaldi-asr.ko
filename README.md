@@ -18,6 +18,8 @@ This repository includes bash and Python2.7 scripts written in the convention fo
 
 3. Korean grapheme-to-phone conversion in Python in [here](https://github.com/scarletcho/KoG2P)
 
+* Numerical expressions and non-Korean characters are not supported.
+
 4. Language model building with Sejong corpus from NIKL
 
 * https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=113&boardGb=M&isInsUpd=&boardType=CORPUS
