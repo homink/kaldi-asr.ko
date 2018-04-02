@@ -12,19 +12,19 @@ kaldi project has been such an active project for ASR development but not much w
 
 2. Korean read speech corpus : about 120 hours (17GB)
 
-http://www.korean.go.kr/front/board/boardStandardView.do?board_id=4&mn_id=17&b_seq=464
+* http://www.korean.go.kr/front/board/boardStandardView.do?board_id=4&mn_id=17&b_seq=464
 
-https://ithub.korean.go.kr/user/corpus/referenceManager.do
+* https://ithub.korean.go.kr/user/corpus/referenceManager.do
 
 3. Korean grapheme-to-phone conversion in Python in [here](https://github.com/scarletcho/KoG2P)
 
 4. Language model building with Sejong corpus from NIKL
 
-https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=113&boardGb=M&isInsUpd=&boardType=CORPUS
+* https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=113&boardGb=M&isInsUpd=&boardType=CORPUS
 
-https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=114&boardGb=M&isInsUpd=&boardType=CORPUS
+* https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=114&boardGb=M&isInsUpd=&boardType=CORPUS
 
-https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=115&boardGb=M&isInsUpd=&boardType=CORPUS
+* https://ithub.korean.go.kr/user/total/referenceView.do?boardSeq=5&articleSeq=115&boardGb=M&isInsUpd=&boardType=CORPUS
 
 
 ## Installation
