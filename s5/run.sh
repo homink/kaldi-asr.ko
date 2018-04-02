@@ -7,7 +7,7 @@ nj=12
 stage=0
 train_set=train
 test_sets=test
-decode=false
+decode=true
 . parse_options.sh  # e.g. this parses the --stage option if supplied.
 
 nikl=/home/kwon/copora/NIKL
