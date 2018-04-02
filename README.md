@@ -4,7 +4,7 @@ This repository includes bash and Python2.7 scripts written in the convention fo
 
 ## Motivation
 
-kaldi project has been such an active project for ASR development but not much work has been available for Korean from scratch. 3 open resources - 1) Korean read speech corpus (about 120 hours, 17GB) from National Institude of Korean Language (NIKL), 2) Korean G2P, 3) Sejong linguistic corpus from National Institude of Korean Language (NIKL) - are fully integrated for Korean ASR research in the kaldi framework
+[Kaldi Speech Recognition Toolkit](https://github.com/kaldi-asr/kaldi) has been such an active project for ASR development but not much work has been available for Korean from scratch. 3 open resources - 1) Korean read speech corpus (about 120 hours, 17GB) from National Institude of Korean Language (NIKL), 2) Korean G2P, 3) Sejong linguistic corpus from National Institude of Korean Language (NIKL) - are fully integrated for Korean ASR in the Kaldi framework
 
 ## Features
 
@@ -91,7 +91,7 @@ cat `find exp -name "best_wer"`
 %WER 13.76 [ 806 / 5856, 145 ins, 82 del, 579 sub ] exp/chain_7e902f5/tdnn1a_sp_online/decode_sp/wer_10_1.0
 ```
 
-run.sh inlcudes CER calcluation although it prints "%WER" prefix. You can get CER rate with the following command.
+[run.sh](https://github.com/homink/kaldi-asr.ko/blob/master/s5/run.sh) inlcudes CER calcluation although it prints "%WER" prefix. You can get CER rate with the following command.
 ```
 cat `find exp -name "best_cer"`
 ```
