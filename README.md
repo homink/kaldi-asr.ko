@@ -96,5 +96,10 @@ run.sh inlcudes CER calcluation although it prints "%WER" prefix. You can get CE
 cat `find exp -name "best_cer"`
 ```
 
-## License
+## Acknowledgements
 
+* https://github.com/hyung8758/kaldi_tutorial
+* https://github.com/scarletcho/KoG2P
+* http://www.korean.go.kr/
+* https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj
+* https://github.com/kaldi-asr/kaldi/tree/master/egs/csj
