@@ -64,13 +64,13 @@ Follow https://github.com/homink/speech.ko and let [run.sh](https://github.com/h
 run.sh
 ```
 
-If you stopped in the middle of stages in run.sh, you may want to jump in somewhere to start as follows:
+If you stopped in the middle of stages in [run.sh](https://github.com/homink/kaldi-asr.ko/blob/master/s5/run.sh), you may want to jump in somewhere to start as follows:
 
 ```
 run.sh --stage 8
 ```
 
-You will find the decoding results as follows:
+After the training is done, you will find the decoding results as follows:
 
 ```
 head exp/chain_7e902f5/tdnn1a_sp_online/decode_sp/scoring_kaldi/penalty_0.0/10.txt 
@@ -126,6 +126,8 @@ cat `find exp -name "best_cer"`
 %WER 11.88 [ 1906 / 16048, 246 ins, 205 del, 1455 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp/decode_looped_sp/cer_7_1.0
 %WER 11.86 [ 1903 / 16048, 248 ins, 205 del, 1450 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp_online/decode_sp/cer_7_1.0
 ```
+
+If you want to see what has been done in the Kaldi framework, [this](https://github.com/homink/kaldi_notes/blob/master/monophone_training.md) would be useful for understanding.
 
 ## Acknowledgements
 
