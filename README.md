@@ -91,11 +91,19 @@ You will be able to get WER rate as follows:
 cat `find exp -name "best_wer"`
 %WER 13.83 [ 810 / 5856, 145 ins, 81 del, 584 sub ] exp/chain_7e902f5/tdnn1a_sp/decode_sp/wer_10_1.0
 %WER 13.76 [ 806 / 5856, 145 ins, 82 del, 579 sub ] exp/chain_7e902f5/tdnn1a_sp_online/decode_sp/wer_10_1.0
+%WER 22.40 [ 1312 / 5856, 183 ins, 95 del, 1034 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp/decode_sp/wer_8_1.0
+%WER 22.56 [ 1321 / 5856, 190 ins, 93 del, 1038 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp/decode_looped_sp/wer_8_1.0
+%WER 22.59 [ 1323 / 5856, 170 ins, 109 del, 1044 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp_online/decode_sp/wer_9_1.0
 ```
 
 [run.sh](https://github.com/homink/kaldi-asr.ko/blob/master/s5/run.sh) inlcudes CER calcluation although it prints "%WER" prefix. You can get CER rate with the following command.
 ```
 cat `find exp -name "best_cer"`
+%WER 6.55 [ 1051 / 16048, 201 ins, 125 del, 725 sub ] exp/chain_7e902f5/tdnn1a_sp/decode_sp/cer_8_1.0
+%WER 6.59 [ 1057 / 16048, 189 ins, 146 del, 722 sub ] exp/chain_7e902f5/tdnn1a_sp_online/decode_sp/cer_9_1.0
+%WER 11.88 [ 1907 / 16048, 240 ins, 210 del, 1457 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp/decode_sp/cer_7_1.0
+%WER 11.88 [ 1906 / 16048, 246 ins, 205 del, 1455 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp/decode_looped_sp/cer_7_1.0
+%WER 11.86 [ 1903 / 16048, 248 ins, 205 del, 1450 sub ] exp/chain_7e902f5_lstm/tdnn_lstm1a_sp_online/decode_sp/cer_7_1.0
 ```
 
 ## Acknowledgements
