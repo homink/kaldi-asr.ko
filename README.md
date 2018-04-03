@@ -1,6 +1,6 @@
 # kaldi-asr.ko
 
-This repository includes bash and Python2.7 scripts written in the convention form of Kaldi recipes for Korean ASR.
+This repository includes bash and Python2.7 scripts written in a conventional form of Kaldi recipes for Korean ASR.
 
 ## Motivation
 
